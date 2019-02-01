@@ -16,7 +16,7 @@ class NoBuild(build_py):
         print(long_description, file=sys.stderr)
         print('-' * 72, file=sys.stderr)
         raise ValueError(
-            '"ldap" is not installable. You want python-ldap or ldap-utils.'
+            '"ldap" is not installable. You probably want python-ldap.'
         )
 
 
